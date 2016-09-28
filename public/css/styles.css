@@ -1,0 +1,33 @@
+header {
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    background-color: #000;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header p {
+    font-size: 28px;
+}
+
+.game-parent {
+    display: flex;
+}
+
+.game-block {
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+    padding: 20px 30px 20px 30px;
+    height: 60px;
+    width: 500px;
+    border: 1px solid #555;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#edit {
+    float: left;
+}
